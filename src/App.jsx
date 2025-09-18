@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router";
-import { ChallengeLayout, TodoList, HolyGrailLayout, Accordion, StarRating } from "./componets";
+import { ChallengeLayout, TodoList, HolyGrailLayout, Accordion, StarRating, ColorBoxes } from "./componets";
 import HomePage from "./pages/HomePage";
 import NotFound from "./componets/NotFound";
 
@@ -13,6 +13,7 @@ function App() {
         <Route path="holy-grail-layout" element={<HolyGrailLayout />} />
         <Route path="accordion" element={<Accordion />} />
         <Route path="star-rating" element={<StarRating />} />
+        <Route path="color-boxes" element={<ColorBoxes />} />
       </Route>
 
       <Route path="*" element={<NotFound />} />

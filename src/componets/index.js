@@ -3,3 +3,4 @@ export { Accordion } from "./Accordion/Accordion";
 export { ChallengeLayout } from "./ChallengeLayout";
 export { HolyGrailLayout } from "./HolyGrailLayout/HolyGrailLayout";
 export { StarRating } from "./StarRating";
+export { ColorBoxes } from "./ColorBoxes";
