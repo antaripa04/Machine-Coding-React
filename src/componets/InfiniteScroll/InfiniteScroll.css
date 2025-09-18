@@ -1,0 +1,36 @@
+.infinite-scroll-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.loading,
+.no-more {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+  color: #666;
+}
+
+/* .no-scrollbar::-webkit-scrollbar {
+    display: none;
+} */
+
+/* Hide scrollbar for IE, Edge and Firefox 
+.no-scrollbar {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+}*/

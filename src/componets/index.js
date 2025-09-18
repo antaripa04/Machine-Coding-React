@@ -4,3 +4,6 @@ export { ChallengeLayout } from "./ChallengeLayout";
 export { HolyGrailLayout } from "./HolyGrailLayout/HolyGrailLayout";
 export { StarRating } from "./StarRating";
 export { ColorBoxes } from "./ColorBoxes";
+export { InfiniteScroll } from "./InfiniteScroll/InfiniteScroll";
+export { Pagination } from "./Pagination";
+export { PostsWithComments } from "./PostsWithComments/PostsWithComments";
